@@ -1,0 +1,410 @@
+
+body {
+  margin: auto;
+  padding: auto;
+  font-family: Arial, 'Times New Roman', Times;
+  background-color: #303243;
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+  justify-content: center;
+  align-items: center;
+  /* position: fixed; */
+}
+
+.navbar-brand {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* this is optional and should be different for every project */
+}
+
+.footer{
+  background-color: #303243;
+  color: #00cc6a;
+  max-width: 300px;
+
+}
+
+
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: #303243 ;
+  color:floralwhite;
+}
+
+
+address{
+  font-size:80%;
+  margin:0px;
+  color: floralwhite;
+}
+
+.form-style {
+  border-radius: 20px;
+}
+.navbar-dark {
+  /* dark color */
+  background-color: #303243;  
+}
+
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+.nav-btn {
+  background-color: #00cc6a;
+}
+.nav-link {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron-btn {
+  background-color: #00cc6a;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 50px;
+}
+
+.jumbotron-select {
+  background-color: transparent;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 50px;
+}
+
+
+
+.MuiButton-root{
+  background-color: #00cc6a;
+}
+
+
+
+.modal {
+  color: floralwhite;
+  font-weight: bold;
+
+}
+
+
+.modal-header {
+  background-color: #303243;
+  font-weight: bold;
+}
+
+.modal-body {
+  background-color: #00cc6a;
+}
+
+
+
+.carousel-item {
+  height: 600;
+}
+
+.carousel {
+  margin: 20px 20px;
+}
+
+.card-header {
+  font-family: 'Roboto';
+font-weight: 900;
+  color: white;
+  font-size: 30px;
+  padding: 40px;
+
+}
+
+.ourmission{
+  min-width: 100% !important;
+}
+
+.features-card-color {
+
+  background-color: #4D5CB2;
+  border-color: #4D5CB2;
+  font-family: 'Roboto';
+}
+
+.download-card-color {
+  background-color: #00cc6a;
+  border-color: #00cc6a;
+  color: white;
+
+}
+
+.feedback-card-color {
+  background-color: #1A1A1A;
+  border-color: #1A1A1A; 
+  color: white;
+}
+.light-gray{
+  background-color: #D3D3D3;
+  border-color: #D3D3D3;
+  color: #303243;
+}
+
+@media(max-width:1000px){
+  .feedback-card-color {
+    min-width: 100%;
+  } 
+  .light-gray{
+    min-width: 100%;
+  }
+  .download-card-color {
+    min-width: 100%;
+  }
+}
+
+.ourmission-section{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+
+.card-body {
+  font-family: 'Arial', cursive;
+  color: floralwhite;
+  align-Items: center; 
+  justify-Items: center; 
+  padding: 20px;  
+}
+
+.download-btn {
+  margin: 5px;
+}
+
+.card-break {
+  border: 1px solid floralwhite;
+}
+
+.features-styles {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.welcome-style {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: '900';
+  font-size: '500px';
+  color: #ffffff;
+};
+
+.desc{
+  color: #00cc6a;
+}
+
+.developer{
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+/* 303243 dark color */
+/* 00cc6a green */
+
+.icon-color {
+  color: #00cc6a;
+}
+
+.fa-cog {
+  color: #00cc6a;
+}
+
+
+
+
+.containers{
+  max-width: 400px; 
+}
+
+
+.mainchat{
+  max-width: 1000px !important;
+  margin: 0 auto
+}
+
+.chatbox {
+  color: floralwhite;
+  border: 5px soild #00cc6a;
+  margin: 20px;
+  min-width: 100%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  min-height: 95vh;
+  max-height: 95vh;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  
+}
+.chatbox::-webkit-scrollbar {
+  display: none;
+}
+
+.bubbleWrapper {
+	padding: 10px 10px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-self: flex-end;
+  color: #fff;
+}
+.inlineContainer {
+  display: inline-flex;
+}
+.inlineContainer.own {
+  flex-direction: row-reverse;
+}
+.inlineIcon {
+  width:20px;
+  object-fit: contain;
+}
+.ownBubble {
+	min-width: 60px;
+	max-width: 700px;
+	padding: 14px 18px;
+  margin: 6px 8px;
+	background-color: #00cc6a;
+	border-radius: 16px 16px 0 16px;
+	border: 1px solid #00cc6a;
+ 
+}
+.otherBubble {
+	min-width: 60px;
+	max-width: 700px;
+	padding: 14px 18px;
+  margin: 6px 8px;
+	background-color: #D3D3D3;
+	border-radius: 16px 16px 16px 0;
+  border: 1px solid #D3D3D3;
+  color: black;
+  }
+.own {
+	align-self: flex-end;
+}
+.other {
+	align-self: flex-start;
+}
+span.own,
+span.other{
+  font-size: 14px;
+  color: grey;
+}
+
+
+.msger-inputarea {
+  display: flex;
+  padding: 10px;
+  border-top: var(--border);
+  background: #eee;
+}
+.msger-inputarea * {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+
+.msger-input {
+  flex: 1;
+  background: #ddd;
+}
+
+.msger-send-btn {
+  margin-left: 10px;
+  background: #00cc6a;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+.msger-send-btn:hover {
+  background: #D3D3D3;
+}
+
+.msger-end-btn {
+  margin-left: 10px;
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.23s;
+}
+
+
+.logo-load {
+  height: 20vmin;
+  animation: rotation 2s infinite linear;
+  margin-top: 15%;
+}
+
+.timeout-icon{
+  height: 20vmin;
+  margin-top: 15%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.searching{
+  color:white !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
